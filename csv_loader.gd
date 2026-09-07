@@ -143,7 +143,7 @@ func escolher_aleatorio_ponderado(lista: Array) -> Dictionary:
 
 	for elemento in lista:
 		acumulado += obter_peso(elemento["raridade"])
-
+sexo
 		if sorteio < acumulado:
 			return elemento
 
