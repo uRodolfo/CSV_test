@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://duuxh304egk5e"]
+
+[ext_resource type="Script" uid="uid://deuwhwnshy2kv" path="res://csv_loader.gd" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://deephugjlp824" path="res://weighted_draw.gd" id="2_0e48y"]
+
+[node name="Node2D" type="Control" unique_id=173504971]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_wtcfe")
+
+[node name="Node2D" type="Node2D" parent="." unique_id=2144167844]
+script = ExtResource("2_0e48y")
+peso_total = 1
+
+[node name="Randomize" type="Button" parent="." unique_id=1814225096]
+layout_mode = 0
+offset_left = 452.0
+offset_top = 456.0
+offset_right = 703.0
+offset_bottom = 556.0
+text = "Randomizar Sala"
+
+[connection signal="button_down" from="Randomize" to="." method="_on_randomize_button_down"]

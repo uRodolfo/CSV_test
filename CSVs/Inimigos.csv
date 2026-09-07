@@ -1,0 +1,6 @@
+ID,Nome,Vida,Dano,VelocidadeMovimento,Raridade,Recompensa
+E01,Goblin,30,5,2.0,Comum,10
+E02,Orc Guerreiro,80,14,1.5,Raro,35
+E03,Aranha Gigante,45,8,3.2,Comum,15
+E04,Golem de Pedra,220,25,0.8,Epico,120
+E05,Dragao Jovem,500,40,1.8,Lendario,500

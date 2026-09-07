@@ -1,0 +1,6 @@
+ID,Nome,Tipo,Dano,VelocidadeAtaque,Raridade,Valor,Descricao
+001,Espada de Ferro,Arma,15,1.2,Comum,50,Espada basica de treino
+002,Machado Duplo,Arma,28,0.8,Raro,180,Arma pesada de dois gumes
+003,Adaga Sombria,Arma,10,2.5,Epico,320,Ataca rapido e ignora parte da armadura
+004,Cajado Arcano,Arma,22,1.0,Lendario,650,Concede dano magico em area
+005,Pocao de Cura,Consumivel,0,0,Comum,20,Restaura 30 pontos de vida

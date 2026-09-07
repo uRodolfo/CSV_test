@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://duuxh304egk5e"]
+
+[ext_resource type="Script" uid="uid://deuwhwnshy2kv" path="res://csv_loader.gd" id="1_wtcfe"]
+
+[node name="Control" type="Control" unique_id=397148749]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_wtcfe")
+
+[node name="ShuffleItem" type="Button" parent="." unique_id=1814225096]
+layout_mode = 0
+offset_left = 677.0
+offset_top = 407.0
+offset_right = 928.0
+offset_bottom = 507.0
+text = "Randomizar Item"
+
+[node name="ShuffleRoom" type="Button" parent="." unique_id=1650094201]
+layout_mode = 0
+offset_left = 677.0
+offset_top = 137.0
+offset_right = 928.0
+offset_bottom = 237.0
+text = "Randomizar Sala"
+
+[node name="ShuffleEnemy" type="Button" parent="." unique_id=1037810559]
+layout_mode = 0
+offset_left = 677.0
+offset_top = 272.0
+offset_right = 928.0
+offset_bottom = 372.0
+text = "Radomizar Inimigo
+"
+
+[node name="ShuffleAll" type="Button" parent="." unique_id=1803469538]
+layout_mode = 0
+offset_left = 227.0
+offset_top = 238.0
+offset_right = 576.0
+offset_bottom = 408.0
+text = "Randomizar Tudo"
+
+[connection signal="button_down" from="ShuffleItem" to="." method="_on_shuffle_item_button_down"]
+[connection signal="button_down" from="ShuffleRoom" to="." method="_on_shuffle_room_button_down"]
+[connection signal="button_down" from="ShuffleEnemy" to="." method="_on_shuffle_enemy_button_down"]
+[connection signal="button_down" from="ShuffleAll" to="." method="_on_shuffle_all_button_down"]

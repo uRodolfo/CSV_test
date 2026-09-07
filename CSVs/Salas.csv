@@ -1,0 +1,5 @@
+ID,Tipo,PesoSorteio,InimigosPermitidos,NivelMinimo
+S01,Combate,50,E01;E03,1
+S02,Tesouro,15,,1
+S03,Elite,20,E02;E04,3
+S04,Chefe,5,E05,5
